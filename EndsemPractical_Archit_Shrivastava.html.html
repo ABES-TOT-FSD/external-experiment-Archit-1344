@@ -1,0 +1,51 @@
+<!Doctype html>
+<html>
+<meta name="viewport" content="width=device-width ,  initial-scale=1">
+<head>
+<title>Gallery-Endsem-practical</title>
+<style>
+body{
+background:grey;
+color:whitesmoke;
+}
+h1{
+text-align:center;
+padding:20px;
+}
+.gallery{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+padding:20px ;
+gap:10px;
+}
+.gallery img{
+height:auto;
+width:100%;
+border-radius:10px;
+}
+@media (max-width:900px){
+.gallery{
+grid-template-columns:repeat(3,1fr);
+}
+}
+@media(max-width:600px){
+.gallery{
+grid-template-columns:repeat(2,1fr)
+}
+}
+</style>
+</head>
+<body>
+<h1>Responsive Image Gallery </h1>
+<div class="gallery">
+<img src="856449.jpg" >
+<img src="Boku no Hiro Akademia.jpg">
+<img src="download (5).jpg">
+<img src="download (4) - Copy.jpg">
+<img src="download (2).jpg">
+<img src="download (1).jpg">
+<img src="Demon Slayer _ Wallpaper.jpg">
+<img src="download.jpg">
+</div>
+</body>
+</html>
